@@ -1,0 +1,246 @@
+CRITICAL - 2022-04-26 06:16:21 --> Call to undefined method App\Models\UsuariModel::validation_login
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(46): CodeIgniter\Model->__call('validation_logi...', Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-26 06:17:40 --> Call to undefined method App\Models\UsuariModel::validation_login
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(46): CodeIgniter\Model->__call('validation_logi...', Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-26 06:19:10 --> Call to undefined method App\Models\UsuariModel::validation_login
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(46): CodeIgniter\Model->__call('validation_logi...', Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-26 06:24:48 --> Invalid file: login.php
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Login.php(11): view('login')
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-26 06:25:10 --> Invalid file: login.php
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Login.php(11): view('login')
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-26 06:25:21 --> Invalid file: login.php
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Login.php(11): view('login')
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-26 06:26:59 --> Invalid file: home.php
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Login.php(11): view('home')
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-26 06:28:16 --> Unknown column 'user_email' in 'where clause'
+CRITICAL - 2022-04-26 06:28:16 --> Unknown column 'user_email' in 'where clause'
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Login.php(26): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#8 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-26 06:46:27 --> Invalid file: register.php
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Register.php(45): view('register', Array)
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-26 06:47:18 --> Invalid file: pages/register.php
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/register....')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('pages/register', Array, true)
+#2 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Register.php(45): view('pages/register', Array)
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-26 06:47:36 --> Invalid file: pages/register.php
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/register....')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('pages/register', Array, true)
+#2 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Register.php(45): view('pages/register', Array)
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-26 06:47:54 --> Invalid file: pages/register.php
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/register....')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('pages/register', Array, true)
+#2 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Register.php(45): view('pages/register', Array)
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-26 06:48:56 --> Invalid file: formulari.php
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulari.php')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('formulari', Array, true)
+#2 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Register.php(45): view('formulari', Array)
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-26 09:54:25 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Register.php(64): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 10:00:32 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Register.php(65): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 10:14:13 --> Invalid file: app/dashboard.php
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app/dashboard.p...')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('app/dashboard', Array, true)
+#2 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Dashboard.php(9): view('app/dashboard')
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-26 10:14:24 --> Invalid file: app/dashboard.php
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app/dashboard.p...')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('app/dashboard', Array, true)
+#2 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Dashboard.php(9): view('app/dashboard')
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-26 11:40:39 --> Class 'App\Controllers\FitxerModel' not found
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-26 11:41:24 --> Class 'App\Controllers\FitxerModel' not found
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-26 11:41:56 --> Class 'App\Controllers\FitxerModel' not found
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-26 11:42:40 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Dashboard.php on line 13
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Dashboard.php(13): view('app/index', NULL)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-26 11:44:05 --> Undefined variable: data
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-26 11:44:15 --> Undefined variable: data
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Dashboard.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-26 11:44:26 --> Undefined variable: nomF
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Views\app\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('app/index', Array, true)
+#4 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Dashboard.php(12): view('app/index')
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 17:59:33 --> Undefined variable: tipusF
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Views\app\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('app/index', Array, true)
+#4 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Dashboard.php(12): view('app/index')
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 18:04:41 --> Undefined variable: tipusF
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Views\app\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('app/index', Array, true)
+#4 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Login.php(13): view('app/index')
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 18:05:04 --> Undefined variable: tipusF
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Views\app\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('app/index', Array, true)
+#4 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Login.php(13): view('app/index')
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 18:06:01 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Dashboard.php on line 18
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Dashboard.php(18): view('app/index', NULL)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

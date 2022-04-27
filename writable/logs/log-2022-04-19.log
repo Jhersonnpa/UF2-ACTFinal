@@ -1,0 +1,60 @@
+CRITICAL - 2022-04-19 09:02:38 --> Undefined variable: dni
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Views\pages\home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(15): view('pages/home')
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 09:50:21 --> Invalid file: formulari.php
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulari.php')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('formulari', Array, true)
+#2 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(20): view('formulari')
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-19 09:50:26 --> Invalid file: formulari.php
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulari.php')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('formulari', Array, true)
+#2 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(20): view('formulari')
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-19 09:51:47 --> Invalid file: formulari.php
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulari.php')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('formulari', Array, true)
+#2 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(20): view('formulari')
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-19 09:52:05 --> Undefined variable: 
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Views\pages\formulari.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('pages/formulari', Array, true)
+#4 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(20): view('pages/formulari')
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-19 09:52:59 --> Undefined variable: 
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Views\pages\formulari.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('pages/formulari', Array, true)
+#4 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(20): view('pages/formulari')
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

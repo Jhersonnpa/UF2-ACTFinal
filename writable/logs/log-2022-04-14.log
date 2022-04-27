@@ -1,0 +1,97 @@
+CRITICAL - 2022-04-14 09:02:15 --> Invalid file: templates/footer.php
+#0 C:\wamp64\www\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/foote...')
+#1 C:\wamp64\www\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('templates/foote...', Array, true)
+#2 C:\wamp64\www\UF2-ACTFinal\app\Controllers\Home.php(18): view('templates/foote...', Array)
+#3 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 09:27:00 --> Argument 2 passed to view() must be of the type array, string given, called in C:\wamp64\www\UF2-ACTFinal\app\Controllers\Home.php on line 16
+#0 C:\wamp64\www\UF2-ACTFinal\app\Controllers\Home.php(16): view('pages/home', 'home')
+#1 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 09:27:25 --> Argument 2 passed to view() must be of the type array, string given, called in C:\wamp64\www\UF2-ACTFinal\app\Controllers\Home.php on line 16
+#0 C:\wamp64\www\UF2-ACTFinal\app\Controllers\Home.php(16): view('pages/home', 'home', Array)
+#1 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 09:39:43 --> Undefined property: App\Controllers\Home::$load
+#0 C:\wamp64\www\UF2-ACTFinal\app\Controllers\Home.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\U...', 15, Array)
+#1 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 09:41:01 --> Undefined property: App\Controllers\Home::$load
+#0 C:\wamp64\www\UF2-ACTFinal\app\Controllers\Home.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\U...', 15, Array)
+#1 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 09:41:16 --> Class 'App\Controllers\CI_Controller' not found
+#0 C:\wamp64\www\UF2-ACTFinal\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\wamp64\www\UF2-ACTFinal\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\U...')
+#2 C:\wamp64\www\UF2-ACTFinal\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#6 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#7 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 10:26:05 --> Call to undefined function link_tag()
+#0 C:\wamp64\www\UF2-ACTFinal\system\View\View.php(210): include()
+#1 C:\wamp64\www\UF2-ACTFinal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\wamp64\www\UF2-ACTFinal\app\Controllers\Home.php(16): view('templates/heade...', Array)
+#4 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-14 10:26:39 --> Call to undefined function link_tag()
+#0 C:\wamp64\www\UF2-ACTFinal\system\View\View.php(210): include()
+#1 C:\wamp64\www\UF2-ACTFinal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#3 C:\wamp64\www\UF2-ACTFinal\app\Controllers\Home.php(16): view('templates/heade...', Array)
+#4 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-14 18:04:51 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-14 18:06:11 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-14 18:07:33 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-04-14 11:32:49 --> Undefined variable: base_url
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Views\pages\home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(14): view('pages/home')
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

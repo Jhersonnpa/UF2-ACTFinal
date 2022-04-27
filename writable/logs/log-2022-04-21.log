@@ -1,0 +1,233 @@
+CRITICAL - 2022-04-21 07:12:40 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Usua...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Usua...')
+#3 [internal function]: spl_autoload_call('App\\Models\\Usua...')
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\Config\Factories.php(136): class_exists('App\\Models\\Usua...')
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'App\\Models\\Usua...')
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#7 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(93): model('App\\Models\\Usua...')
+#8 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormRegister()
+#9 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-21 07:13:35 --> Call to a member function getResult() on string
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(46): App\Models\UsuariModel->validation_login('jpa', '123')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-21 08:03:10 --> Undefined variable: db
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Models\UsuariModel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(46): App\Models\UsuariModel->validation_login('jpa', '123')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-21 08:05:29 --> Undefined property: App\Controllers\Home::$db
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 94, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormRegister()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-21 08:06:01 --> Duplicate entry 'Marc' for key 'PRIMARY'
+CRITICAL - 2022-04-21 08:06:01 --> Duplicate entry 'Marc' for key 'PRIMARY'
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(95): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormRegister()
+#10 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-21 08:06:52 --> Duplicate entry 'jpa' for key 'PRIMARY'
+CRITICAL - 2022-04-21 08:06:52 --> Duplicate entry 'jpa' for key 'PRIMARY'
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(95): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormRegister()
+#10 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-21 08:14:59 --> Undefined variable: db
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Models\UsuariModel.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(46): App\Models\UsuariModel->validation_login('jpa', '1234')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-21 08:27:58 --> Argument 2 passed to view() must be of the type array, object given, called in C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php on line 48
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(48): view('app/index', Object(mysqli_result))
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-21 08:39:45 --> Call to undefined method mysqli_result::getResult()
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(46): App\Models\UsuariModel->validation_login('jpa', '81dc9bdb52d04dc...')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-21 08:43:19 --> Call to undefined method mysqli_result::getNumRows()
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(46): App\Models\UsuariModel->validation_login('jpa', '81dc9bdb52d04dc...')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-21 08:50:45 --> Trying to get property 'codiU' of non-object
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Models\UsuariModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(46): App\Models\UsuariModel->validation_login('jpa', '81dc9bdb52d04dc...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-21 08:55:12 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php on line 51
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(51): view('pages/home.php', NULL)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-21 09:47:49 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php on line 51
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(51): view('pages/home.php', NULL)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-21 10:01:02 --> Undefined variable: result
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Views\app\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('app/index', Array, true)
+#4 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(46): view('app/index')
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-21 10:01:50 --> Invalid file: index.php
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(53): view('index', Array)
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-21 10:02:19 --> Invalid file: pages/index.php
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/index.php')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('pages/index', Array, true)
+#2 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(53): view('pages/index', Array)
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#4 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-21 10:05:34 --> Object of class App\Models\UsuariModel could not be converted to int
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-21 10:22:05 --> Undefined variable: codiUsuario
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Views\pages\home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(17): view('pages/home')
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-21 10:26:41 --> Array to string conversion
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Views\pages\home.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('pages/home.php', Array, true)
+#4 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(52): view('pages/home.php', Array)
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-21 10:40:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(46): App\Models\UsuariModel->validation_login('Jnpa', '81dc9bdb52d04dc...')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-21 10:41:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(46): App\Models\UsuariModel->validation_login('Jnpa', '81dc9bdb52d04dc...')
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-21 10:46:31 --> Array to string conversion
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Views\app\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('app/index', Array, true)
+#4 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(52): view('app/index', Array)
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-21 10:47:11 --> Array to string conversion
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Views\app\index.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\Common.php(1089): CodeIgniter\View\View->render('app/index', Array, true)
+#4 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(52): view('app/index', Array)
+#5 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#6 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-21 10:59:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-21 11:00:02 --> Argument 2 passed to view() must be of the type array, object given, called in C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php on line 48
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(48): view('app/index', Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-21 11:11:21 --> Too few arguments to function App\Models\UsuariModel::validation_login(), 0 passed in C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php on line 46 and exactly 2 expected
+#0 C:\xampp\htdocs\UF2-ACTFinal\app\Controllers\Home.php(46): App\Models\UsuariModel->validation_login()
+#1 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(832): App\Controllers\Home->rebreFormulari()
+#2 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\UF2-ACTFinal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\UF2-ACTFinal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

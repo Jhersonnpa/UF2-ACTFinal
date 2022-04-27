@@ -1,0 +1,29 @@
+[33mcommit 090fb206170c1134e45b8648399e6dc831bbc738[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Jhersonnpa <jhersonnpa@gmail.com>
+Date:   Fri Apr 22 02:01:34 2022 +0200
+
+    Creacion de nuevos controladores
+
+[33mcommit 4b7feeebb6bbf4bc0d57fda8b32435e6ae3f7b7c[m
+Author: Jherson Pabon <jhersonnpa@gmail.com>
+Date:   Thu Apr 21 18:55:05 2022 +0200
+
+    Aiuda
+
+[33mcommit b3bac4fd189d7c188d33a91317ef57d33235dd65[m
+Author: Jhersonnpa <jhersonnpa@gmail.com>
+Date:   Thu Apr 21 14:17:51 2022 +0200
+
+    Avance Login y modelo UsuariModel
+
+[33mcommit 7098d15c6ffafedead0581a092181517ff22766c[m
+Author: Jherson Pabon <jhersonnpa@gmail.com>
+Date:   Wed Apr 20 17:17:17 2022 +0200
+
+    Registro completado
+
+[33mcommit 704c29edc6e76abb99029520c214748d09aa1f23[m
+Author: Jherson <jherson@gmail.com>
+Date:   Tue Apr 19 18:48:20 2022 +0200
+
+    first commit

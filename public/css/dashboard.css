@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Akshar', sans-serif;
+}
+
+:root{
+    --color-primary: #1C1C1C;
+    --color-secondary: #1F1F1F;
+    --color-dark: #222222;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+/* Navbar */
+.nav {
+    width: 10%;
+    height: 100vh;
+    padding: 30px;
+}
+nav{
+    width: 10%;
+    height: 100vh;
+    padding: 30px;
+    color: #585858;
+    background-color: var(--color-primary);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+nav h2 {
+    font-size: 1.6rem;
+    color: #ffffff;
+    width: max-content;
+    border-bottom: 4px solid #8358FD;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+nav li {
+    background-color: #8358FD;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #585858;
+}
+
+nav li:hover a{
+    color: #ECD6FD;
+}
+
+/* Dashboard */
+#dashboard{
+    width: 90%;
+    min-height: 100vh;
+    padding: 30px;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: #ffffff;
+}
+
+#dashboard > div {
+    background-color: #262626;
+    border-radius: 10px;
+}
+
+.fitxers-personals {
+    width: 90%;
+    height: 400px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.fitxers-personals img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+}

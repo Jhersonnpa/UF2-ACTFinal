@@ -65,13 +65,7 @@
             }  
             ?>
             <input type="tel" name="telefon" value="<?= $telefon ?>" placeholder="Telefono">
-            <?php
-            if (!empty($validation)) {
-                if ($validation->getError('telefon')) {
-                    echo $validation->getError('telefon');
-                }    
-            }
-            ?>
+            
             <div>
             <input type="submit" value="Registrarse" name="registro">
             <a href="<?= base_url() ?>">Cancelar</a>

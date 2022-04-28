@@ -35,7 +35,7 @@
                 foreach ($data as $key => $value) {
                     echo "
                     <div>
-                        <img src='data:".$value['tipusF'].";base64,".base64_encode( $value['contingut'] )."'/>
+                        <img src='data:".$value['tipusF'].";base64,".base64_encode($value['contingut'])."'/>
                         <span>".$value['nomF']."</span>
                         <span>".$value['data']."</span>
                     </div>

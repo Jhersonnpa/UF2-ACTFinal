@@ -36,7 +36,7 @@ class Dashboard extends BaseController
     public function upload()
     {
         $session = session();
-        
+        $con=mysqli_connect('localhost','root','','uf2_afinal');
     	$regles = [
 			'file' => [
                 'rules' => 'uploaded[file]'
@@ -60,24 +60,32 @@ class Dashboard extends BaseController
         }
 
         $img = $this->request->getFile('file');
+        
+        $imgData = file_get_contents($_FILES['file']['tmp_name']);
+        $imgData= mysqli_real_escape_string($con, $imgData);
 
-        if (! $img->hasMoved()) {
-            $filepath = WRITEPATH . 'uploads/' . $img->store();
+        $sql="insert into fitxers (nomF, tipusF, data, contingut, nomRandom, codiU) values ('".$img->getName()."','".$img->getClientMimeType()."','".date("Y/m/d")."','".$imgData."', '','".$session->codiU."')";
 
-            $data =  new File($filepath);
-            $data['writepath'] = $filepath;
-            $dades = [
-                'nomF' => '',
-                'tipusF' => '',
-                'data' => '',
-            ];
-            $model = new FitxerModel();
-            $model->save($data);
-            return view('app/succes', $data);
-        } else {
-            $dades = ['errors' => 'The file has already been moved.'];
+        mysqli_query($con, $sql);
+        if(mysqli_error($con)){
+            $dades = ['errors' => 'El archivo ya se ha movido.'];
 
             return view('app/index', $dades);
         }
+        else {
+            // $img->move(WRITEPATH . 'uploads');
+            $dades = [
+                'nomF' => $img->getName(),
+                'tipusF' => $img->getClientMimeType(),
+                'data' => date("Y/m/d"),
+                'contingut' => $imgData,
+                'nomRandom' => '',
+                'codiU' => $session->codiU,
+            ];
+            // $model = new FitxerModel();
+            // $model->save($dades);
+            return view('app/succes', $dades);
+        }
+        mysqli_close($con);
     }
 }

@@ -10,7 +10,7 @@ class Login extends BaseController
         helper(['form']);
         $session = session();
         if ($session->has('codiU')) {
-            return view('app/index');
+            return redirect()->to('/dashboard');
         }
         return view('pages/home');
     } 

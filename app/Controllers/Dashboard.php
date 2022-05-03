@@ -2,6 +2,7 @@
   
 use CodeIgniter\Controller;
 use App\Models\FitxerModel;
+use App\Models\CompartirFitxer;
 use CodeIgniter\Files\File;
   
 class Dashboard extends BaseController

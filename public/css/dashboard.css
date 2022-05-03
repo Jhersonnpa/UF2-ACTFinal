@@ -160,3 +160,10 @@ nav li {
 .amigos {
     grid-area: amigos;
 }
+
+.container-archives{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}

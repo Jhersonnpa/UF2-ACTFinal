@@ -32,6 +32,7 @@
             <h2>Mis archivos</h2>
             <?php
             if (isset($data)) {
+                echo "<div class='container-archives'>";
                 foreach ($data as $key => $value) {
                     echo "
                     <div>
@@ -41,7 +42,7 @@
                     </div>
                     ";
                 }
-                
+                echo "</div>";
             }
             ?>
             

@@ -71,6 +71,7 @@ nav li {
     border-radius: 5px;
     font-weight: 400;
     font-size: 1.2rem;
+    transition: all .5s;
     cursor: pointer;
     display: flex;
 }
@@ -166,4 +167,21 @@ nav li {
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
+}
+
+.share {
+    width: 32px;
+    height: 32px;
+    background-color: #1C1C1C;
+    border: 2px solid #8358FD;
+    transition: all .6s ;
+    color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+
+.share:hover{
+    background-color: #8358FD;
+    border: 2px solid #ffffff;
 }

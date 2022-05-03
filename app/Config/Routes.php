@@ -38,6 +38,7 @@ $routes->add('/register','Register::index');
 $routes->add('/rebreFormRegister','Register::save');
 $routes->get('/dashboard', 'Dashboard::index',['filter' => 'auth']);
 $routes->add('/upload','Dashboard::upload');
+$routes->add('/compartir','Dashboard::compartir');
 
 /*
  * --------------------------------------------------------------------

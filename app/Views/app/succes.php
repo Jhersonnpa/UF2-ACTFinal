@@ -9,14 +9,9 @@
 <body>
 <h3>Your file was successfully uploaded!</h3>
 
-<ul>
-    <?php
-    echo "
-        $nomF - $tipusF - $data - $codiU
-    ";
-    ?>
-</ul>
-
-<p><?= anchor('upload', 'Upload Another File!') ?></p>
+<p><?= anchor('dashboard', 'Upload Another File!') ?></p>
+<?php 
+    echo WRITEPATH;
+?>
 </body>
 </html>

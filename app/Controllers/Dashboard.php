@@ -22,11 +22,21 @@ class Dashboard extends BaseController
         }
         else {
             $model = new FitxerModel();
+            $compartir = new CompartirFitxer();
             $data = $model->where('codiU', $session->codiU)
             ->findAll();
+            $dataCompartir = $compartir->where('codiUC', $session->codiU)
+            ->findAll();
             if ($data) {
-                $dades = ["data" => $data];
-                return view('app/index',$dades); 
+                if ($dataCompartir) {
+                    $dades = ["data" => $data, "dataCompartir" => $dataCompartir];
+                    return view('app/index',$dades);
+                }
+                else {
+                    $dades = ["data" => $data];
+                    return view('app/index',$dades);
+                }
+                 
             }
             else {
                 return view('app/index'); 
@@ -55,7 +65,7 @@ class Dashboard extends BaseController
 		];
 
         if (! $this->validate($regles)) {
-            $dades = ['errors' => $this->validator->getErrors()];
+            $dades['validation'] = $this->validator;
 
             return view('app/index', $dades);
         }
@@ -77,13 +87,28 @@ class Dashboard extends BaseController
             ];
             $model = new FitxerModel();
             $model->save($dades);
-            unlink(WRITEPATH . 'uploads/'.$dades['nomF']);
+            // unlink(WRITEPATH . 'uploads/'.$dades['nomF']);
             return view('app/succes', $dades);
         } else {
             $dades = ['errors' => 'El archivo ya se ha movido.'];
-
+            
             return view('app/index', $dades);
         }
         // mysqli_close($con);
+    }
+
+    public function compartir()
+    {
+        $session = session();
+
+        $dades = [
+            'codiF'    => $this->request->getVar('compartirF'),
+			'codiUC'     => $this->request->getVar('compartirU'),
+		];
+
+        $model = new CompartirFitxer();
+        $model->insert($dades);
+        $session->setFlashdata('msg', 'Archivo compartido');
+        return redirect()->to('/');
     }
 }
